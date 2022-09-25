@@ -1,0 +1,42 @@
+.MainPage{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.MainPage .bgimg{
+    background-image:url("./homebg.jpg");
+    background-size: cover;
+    height: 92vh;
+    color:white;
+}
+
+.MainPage h1{
+    background-color: rgba(255,255,255,0.4);
+    width: fit-content;
+    border-radius: 10px;
+    padding:2px;
+}
+
+.MainPage .description{
+    height: 100%;
+    flex-direction: column;
+    justify-content:center ;
+    width: 50%;
+    align-items: center;
+}
+
+.abot{
+    background-color: darkslategray;
+    padding: 5px;
+}
+
+.abot h1{
+    background-color: unset;
+    color: white;
+}
+
+.footer{
+    margin: 0;
+    padding: 0;
+}
+

@@ -1,0 +1,38 @@
+.vendorprof{
+    height: 100vh;
+}
+
+.vendorprof .nav{
+    height: 100vh;
+    width: 15vw;
+    border-right: 1px solid black;
+    padding-top: 5%;
+    flex-wrap: wrap;
+    
+}
+
+.vendorprof .nav{
+    align-items: center;
+}
+
+.vendorprof .nav-link:focus{
+    background-color: yellow;
+    font-weight:bold;
+    color: green;
+
+}
+
+.vendorprof .nav-link{
+    background-color: white;
+    color: green;
+}
+
+
+.vendorprof .nav *{
+    width: 100%;
+    border-radius:0px;
+}
+
+.vendorprof .post{
+    border: 1px solid black;
+}

@@ -1,0 +1,38 @@
+.lenderprof{
+    height: 100vh;
+}
+
+.lenderprof .nav{
+    height: 100vh;
+    width: 15vw;
+    border-right: 1px solid black;
+    padding-top: 5%;
+    flex-wrap: wrap;
+    
+}
+
+.lenderprof .nav{
+    align-items: center;
+}
+
+.lenderprof .nav-link:focus{
+    background-color: yellow;
+    font-weight:bold;
+    color: green;
+
+}
+
+.lenderprof .nav-link{
+    background-color: white;
+    color: green;
+}
+
+
+.lenderprof .nav *{
+    width: 100%;
+    border-radius:0px;
+}
+
+.lenderprof .post{
+    border: 1px solid black;
+}

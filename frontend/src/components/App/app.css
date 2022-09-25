@@ -1,0 +1,13 @@
+html {
+    height: 100%
+}
+
+body {
+    min-height: 100%;
+}
+
+#root .App  {
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: "Product Sans",Arial,sans-serif;
+}
